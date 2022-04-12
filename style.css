@@ -9,7 +9,7 @@ nav {
     /* Why does center/right/left all have different results on the links */
     align-items: center;
     /* 2% of what? 6% of what? */
-    padding: 2% 6%;
+    padding: 5% 6%;
 }
 
 nav img {
@@ -52,6 +52,7 @@ header {
     min-height: 100vh;
     /* difference between cover and contain?  */
     background-size: cover;
+    overflow-x: hidden;
     opacity: 100%;
     width: 100%;
     /* learn more about background position  */
