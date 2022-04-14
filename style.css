@@ -52,7 +52,6 @@ header {
     min-height: 100vh;
     /* difference between cover and contain?  */
     background-size: cover;
-    overflow-x: hidden;
     opacity: 100%;
     width: 100%;
     /* learn more about background position  */
@@ -75,7 +74,13 @@ header {
     /* transition doesnt work on borders? */
 }
 
+h2 {
+    margin: 2.5%;
+}
 
+p {
+    padding-top: 5%
+}
 
 .main-textbox {
     color: white;
@@ -105,6 +110,7 @@ header {
 .courses {
     text-align: center;
     margin: 10%;
+    margin-bottom: 5%;
 }
 
 .course-column {
@@ -129,21 +135,119 @@ header {
     justify-content: space-between;
 }
 
+
 h2 {
     font-size: 2.5em;
 }
 
+.campus {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+    box-sizing: border-box;
+
+}
+
+.campus-column {
+    flex-basis: 32%;
+
+}
+
+.campus-column img {
+    width: 80%;
+    border-radius: 5%;
+
+    text-align: center;
+}
+
+.facilities {
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    margin-bottom: 10%;
+    text-align: left;
+
+}
+
+.facilities h2 {
+    text-align: center;
+}
+
+.facilities>p {
+    text-align: center;
+}
+
+.facilities-column img {
+    width: 80%;
+    height: 90%;
+    border-radius: 5%;
+    margin-bottom: 10%;
+    margin-right: 30px;
+    margin-left: 5px;
+
+}
+
+.testimonies {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+
+.testimonies-column {
+    display: flex;
+    width: 550px;
+    background-color: #fff3f3;
+    text-align: left;
+    border-radius: 15px;
+    height: 150px;
+    justify-content: space-between;
+
+}
+
+.testimonies-column h3 {
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.testimonies-column p {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.testimonies-column img {
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* how to get the hovering affect as the website? */
 /* 
-What is background-attachment
-Background-size
-Background-position;
-quick summary flex
-what is flex:1
-position relative
-top
-left
-position absolute
 ::after
-overflow
-how doyou choose what %/width/px for fonts etc etc
+what is margin/padding auto?
+what is flex-basis?
+*/
+
+/* notes
+Static: is the default of every element
+Relative: element stays in the same spot and top right left and bottom  will move according to where the original spot is
+position: fixed is stuck to the screen
+background-size: cover; will try to fit to page without stretching, but will crop it
+contain: will fit to page without strething but will not crop, however this will cause a repeat
+background-repeat: 
+background-position: where it starts. Does it align to the top/ center/left/right
 */
